@@ -249,5 +249,8 @@ li a:hover {
     .button1 .button2 {
         display: block;
     }
+    #browse-ramen {
+        width: 30%;
+    }
 }
 
