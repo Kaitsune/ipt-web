@@ -1,16 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Glory&display=swap");
 
 body {
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("../image/bg.jpg");
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../image/bg.jpg");
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("../images/bg.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/bg.jpg");
     background-size: 100%;
     margin: 0;
     font-family: 'Glory';
 }
 
 .navbar {
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(228, 138, 4, 0.9)), to(rgba(228, 138, 4, 0.9))), url("../image/navpattern.jpg");
-    background: linear-gradient(rgba(228, 138, 4, 0.9), rgba(228, 138, 4, 0.9)), url("../image/navpattern.jpg");
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(228, 138, 4, 0.9)), to(rgba(228, 138, 4, 0.9))), url("../images/navpattern.jpg");
+    background: linear-gradient(rgba(228, 138, 4, 0.9), rgba(228, 138, 4, 0.9)), url("../images/navpattern.jpg");
     padding: 1em;
     padding-top: 0%;
     padding-bottom: 0%;
@@ -123,6 +123,16 @@ li a:hover {
     float: right;
     margin: .5em;
     cursor: pointer;
+}
+
+#footer {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(228, 138, 4, 0.9)), to(rgba(228, 138, 4, 0.9))), url("../image/navpattern.jpg");
+    background: linear-gradient(rgba(228, 138, 4, 0.9), rgba(228, 138, 4, 0.9)), url("../image/navpattern.jpg");
+    padding: 1em;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    margin: 0 auto;
+    height: 80%;
 }
 
 @media only screen and (min-width: 750px) {
