@@ -125,6 +125,72 @@ li a:hover {
     cursor: pointer;
 }
 
+#browse-ramen {
+    letter-spacing: .1em;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(120, 120, 120, 0.9)), to(rgba(120, 120, 120, 0.9))), url("../image/bgpattern.jpg");
+    background: linear-gradient(rgba(120, 120, 120, 0.9), rgba(120, 120, 120, 0.9)), url("../image/bgpattern.jpg");
+    border-radius: 18px;
+    width: 70%;
+    margin: 0 auto;
+    padding: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#browse-ramen img {
+    width: 70%;
+}
+
+#browse-ramen .ingredients {
+    border: 10px solid black;
+    overflow-x: auto;
+}
+
+#browse-ramen .ingredients h3,
+#browse-ramen .ingredients h4 {
+    text-decoration: underline;
+}
+
+#browse-ramen .ingredients ul {
+    display: unset;
+}
+
+#browse-ramen .ingredients ul li {
+    font-weight: bold;
+}
+
+#browse-ramen .ingredients table,
+#browse-ramen .ingredients th,
+#browse-ramen .ingredients td {
+    margin: auto;
+    padding: 10px;
+    border: 2px solid #555555;
+    border-collapse: collapse;
+    border-spacing: 0%;
+}
+
+#browse-ramen .ramen-recipe {
+    display: flex-box;
+}
+
+#browse-ramen .ramen-recipe div {
+    background-color: rgba(255, 166, 0, 0.459);
+    margin: 25px;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#browse-ramen .ramen-recipe div p {
+    color: black;
+}
+
+#browse-ramen .ramen-recipe div img {
+    width: 50%;
+    border-radius: 8px;
+}
+
 #footer {
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(228, 138, 4, 0.9)), to(rgba(228, 138, 4, 0.9))), url("../image/navpattern.jpg");
     background: linear-gradient(rgba(228, 138, 4, 0.9), rgba(228, 138, 4, 0.9)), url("../image/navpattern.jpg");
@@ -182,6 +248,9 @@ li a:hover {
 
     .button1 .button2 {
         display: block;
+    }
+    #browse-ramen {
+        width: 30%;
     }
 }
 
